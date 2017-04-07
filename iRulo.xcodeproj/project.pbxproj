@@ -8,22 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		0979D0CD1E981E3800AEE9DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0979D0CC1E981E3800AEE9DE /* AppDelegate.swift */; };
-		0979D0CF1E981E3800AEE9DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0979D0CE1E981E3800AEE9DE /* ViewController.swift */; };
 		0979D0D21E981E3800AEE9DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0979D0D01E981E3800AEE9DE /* Main.storyboard */; };
 		0979D0D51E981E3800AEE9DE /* iRulo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0979D0D31E981E3800AEE9DE /* iRulo.xcdatamodeld */; };
 		0979D0D71E981E3800AEE9DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0979D0D61E981E3800AEE9DE /* Assets.xcassets */; };
 		0979D0DA1E981E3800AEE9DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0979D0D81E981E3800AEE9DE /* LaunchScreen.storyboard */; };
+		0979D0E21E9820E100AEE9DE /* IR_GameListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0979D0E11E9820E100AEE9DE /* IR_GameListViewController.swift */; };
+		0979D0E41E9820F900AEE9DE /* IR_AddGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0979D0E31E9820F900AEE9DE /* IR_AddGameViewController.swift */; };
+		0979D0E61E98215900AEE9DE /* IR_DetailCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0979D0E51E98215900AEE9DE /* IR_DetailCustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0979D0C91E981E3800AEE9DE /* iRulo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iRulo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0979D0CC1E981E3800AEE9DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0979D0CE1E981E3800AEE9DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0979D0D11E981E3800AEE9DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0979D0D41E981E3800AEE9DE /* iRulo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iRulo.xcdatamodel; sourceTree = "<group>"; };
 		0979D0D61E981E3800AEE9DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0979D0D91E981E3800AEE9DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0979D0DB1E981E3800AEE9DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0979D0E11E9820E100AEE9DE /* IR_GameListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IR_GameListViewController.swift; sourceTree = "<group>"; };
+		0979D0E31E9820F900AEE9DE /* IR_AddGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IR_AddGameViewController.swift; sourceTree = "<group>"; };
+		0979D0E51E98215900AEE9DE /* IR_DetailCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IR_DetailCustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				0979D0CC1E981E3800AEE9DE /* AppDelegate.swift */,
-				0979D0CE1E981E3800AEE9DE /* ViewController.swift */,
+				0979D0E71E98215D00AEE9DE /* VIEWS_CONTROLLERS */,
 				0979D0D01E981E3800AEE9DE /* Main.storyboard */,
 				0979D0D61E981E3800AEE9DE /* Assets.xcassets */,
 				0979D0D81E981E3800AEE9DE /* LaunchScreen.storyboard */,
@@ -65,6 +69,16 @@
 				0979D0D31E981E3800AEE9DE /* iRulo.xcdatamodeld */,
 			);
 			path = iRulo;
+			sourceTree = "<group>";
+		};
+		0979D0E71E98215D00AEE9DE /* VIEWS_CONTROLLERS */ = {
+			isa = PBXGroup;
+			children = (
+				0979D0E11E9820E100AEE9DE /* IR_GameListViewController.swift */,
+				0979D0E31E9820F900AEE9DE /* IR_AddGameViewController.swift */,
+				0979D0E51E98215900AEE9DE /* IR_DetailCustomCell.swift */,
+			);
+			name = VIEWS_CONTROLLERS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +153,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0979D0E61E98215900AEE9DE /* IR_DetailCustomCell.swift in Sources */,
+				0979D0E21E9820E100AEE9DE /* IR_GameListViewController.swift in Sources */,
+				0979D0E41E9820F900AEE9DE /* IR_AddGameViewController.swift in Sources */,
 				0979D0D51E981E3800AEE9DE /* iRulo.xcdatamodeld in Sources */,
-				0979D0CF1E981E3800AEE9DE /* ViewController.swift in Sources */,
 				0979D0CD1E981E3800AEE9DE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

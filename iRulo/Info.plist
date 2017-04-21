@@ -32,6 +32,10 @@
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Estimado Usuario, la aplicación necesita permiso para acceder a la cámara</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Estimado Usuario, la aplicación necesita permiso para acceder a la librería de fotos</string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

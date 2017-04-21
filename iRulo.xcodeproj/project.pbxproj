@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		094763A61EAA4EFF00200C24 /* API_Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094763A51EAA4EFF00200C24 /* API_Utils.swift */; };
 		0979D0CD1E981E3800AEE9DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0979D0CC1E981E3800AEE9DE /* AppDelegate.swift */; };
 		0979D0D21E981E3800AEE9DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0979D0D01E981E3800AEE9DE /* Main.storyboard */; };
 		0979D0D51E981E3800AEE9DE /* iRulo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0979D0D31E981E3800AEE9DE /* iRulo.xcdatamodeld */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		094763A51EAA4EFF00200C24 /* API_Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API_Utils.swift; sourceTree = "<group>"; };
 		0979D0C91E981E3800AEE9DE /* iRulo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iRulo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0979D0CC1E981E3800AEE9DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0979D0D11E981E3800AEE9DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				0979D0CC1E981E3800AEE9DE /* AppDelegate.swift */,
+				094763A51EAA4EFF00200C24 /* API_Utils.swift */,
 				0979D0E71E98215D00AEE9DE /* VIEWS_CONTROLLERS */,
 				0979D0D01E981E3800AEE9DE /* Main.storyboard */,
 				0979D0D61E981E3800AEE9DE /* Assets.xcassets */,
@@ -155,6 +158,7 @@
 			files = (
 				0979D0E61E98215900AEE9DE /* IR_DetailCustomCell.swift in Sources */,
 				0979D0E21E9820E100AEE9DE /* IR_GameListViewController.swift in Sources */,
+				094763A61EAA4EFF00200C24 /* API_Utils.swift in Sources */,
 				0979D0E41E9820F900AEE9DE /* IR_AddGameViewController.swift in Sources */,
 				0979D0D51E981E3800AEE9DE /* iRulo.xcdatamodeld in Sources */,
 				0979D0CD1E981E3800AEE9DE /* AppDelegate.swift in Sources */,
@@ -319,6 +323,7 @@
 				0979D0E01E981E3800AEE9DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
